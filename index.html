@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAMS Explorer - Your Gateway to Ayurvedic Wisdom</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">BAMS Explorer</div>
+            <ul class="nav-links">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#years"><i class="fas fa-graduation-cap"></i> Study Years</a></li>
+                <li><a href="#syllabus"><i class="fas fa-book"></i> Syllabus</a></li>
+                <li><a href="#qa"><i class="fas fa-question-circle"></i> Q&A</a></li>
+                <li><a href="#resources"><i class="fas fa-laptop-medical"></i> Resources</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Discover the World of Ayurvedic Medicine</h1>
+            <p>Explore what should be learned throught this amazing course🌟</p>
+            <a href="#years" class="cta-button">Start Your Journey</a>
+        </section>
+
+        <section id="years" class="study-years">
+            <h2>BAMS Study Years</h2>
+            <div class="year-cards">
+                <div class="year-card" data-year="1">
+                    <h3>First Year</h3>
+                    <p>Foundation in Ayurvedic principles and modern sciences</p>
+                </div>
+                <div class="year-card" data-year="2">
+                    <h3>Second Year</h3>
+                    <p>Advanced concepts and Ayurvedic pharmacology</p>
+                </div>
+                <div class="year-card" data-year="3">
+                    <h3>Third Year</h3>
+                    <p>Clinical subjects and therapeutic approaches</p>
+                </div>
+                <div class="year-card" data-year="4">
+                    <h3>Fourth Year</h3>
+                    <p>Specializations and practical applications</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="syllabus" class="syllabus">
+            <h2>Syllabus</h2>
+            <div class="syllabus-container">
+                <div class="syllabus-nav">
+                    <ul id="syllabus-list"></ul>
+                </div>
+                <div class="syllabus-content">
+                    <div id="syllabus-tree"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="qa" class="qa-section">
+            <h2>Ask Your Doubts</h2>
+            <div class="qa-container">
+                <input type="text" id="question-input" placeholder="Ask about BAMS, Ayurveda, or related topics...">
+                <button id="ask-button">Ask</button>
+                <div id="answer-output"></div>
+            </div>
+        </section>
+
+        <section id="resources" class="resources">
+            <h2>Additional Resources</h2>
+            <div class="resource-grid">
+                <div class="resource-card">
+                    <h3><i class="fas fa-book-reader"></i> E-Library</h3>
+                    <p>Access digital Ayurvedic texts and research papers</p>
+                    <a href="#" class="resource-link" id="e-library-link">Explore E-Library</a>
+                </div>
+                <div class="resource-card">
+                    <h3><i class="fas fa-video"></i> Video Lectures</h3>
+                    <p>Watch expert explanations of complex topics</p>
+                    <a href="#" class="resource-link" id="video-lectures-link">View Lectures</a>
+                </div>
+                <div class="resource-card">
+                    <h3><i class="fas fa-leaf"></i> Herb Database</h3>
+                    <p>Explore detailed information on Ayurvedic herbs</p>
+                    <a href="#" class="resource-link" id="herb-database-link">Search Herbs</a>
+                </div>
+                <div class="resource-card">
+                    <h3><i class="fas fa-tasks"></i> Practice Quizzes</h3>
+                    <p>Test your knowledge with interactive quizzes</p>
+                    <a href="#" class="resource-link" id="practice-quizzes-link">Take a Quiz</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 BAMS Explorer. All rights reserved by owner mona.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
